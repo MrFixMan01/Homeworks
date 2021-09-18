@@ -3,7 +3,7 @@ b = int(input("Введите b="))
 c = int(input("Введите c="))
 d = int(input("Введите d="))
 f = int(input("Введите f="))
-e = f-d
+e = f - d
 if e == 0:
     print("Делить на ноль нельзя!")
 else:
