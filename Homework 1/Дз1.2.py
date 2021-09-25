@@ -7,5 +7,5 @@ e = f - d
 if e == 0:
     print("Делить на ноль нельзя!")
 else:
-    x = (a * b - c) / e
-    print(x)
+    print((a * b - c) / e)
+

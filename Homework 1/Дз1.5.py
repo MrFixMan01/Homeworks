@@ -1,5 +1,5 @@
-x=float(input("Введите х"))
-y=float(input("Введите у"))
+x = float(input("Введите х"))
+y = float(input("Введите у"))
 if x > 0 and y > 0:
     print("1-я четверть")
 elif y > 0 and x < 0:
