@@ -1,6 +1,5 @@
-n = int(input("Ваше число "))
 def f(n):
-    if (1 <= n <= 2) or (n == 12):
+    if n in (1, 2, 12):
         return "Зима"
     elif 3 <= n <= 5:
         return "Весна"
@@ -8,4 +7,5 @@ def f(n):
         return "Лето"
     elif 9 <= n <= 11:
         return "Осень"
+n = int(input("Ваше число "))
 print(f(n))

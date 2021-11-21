@@ -5,4 +5,3 @@ def func():
         b.append(n)
         n = input("Ввод  ")
     return b
-print(func())

@@ -4,5 +4,5 @@ def func():
     while n != "":
         b.append(n)
         n = input("Ввод  ")
-    print(b)
-func()
+    return b
+print(func())
