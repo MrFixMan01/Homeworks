@@ -7,5 +7,7 @@ def f(n):
         return "Лето"
     elif 9 <= n <= 11:
         return "Осень"
+
+
 n = int(input("Ваше число "))
 print(f(n))
