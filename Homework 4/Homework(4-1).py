@@ -5,6 +5,8 @@ def sdvig(b, n):
     for i in range(n):
         b = b[-1:] + b[:-1]
     return b
+
+
 b = func()
 n = int(input("На сколько сместить? "))
 print(sdvig(b, n))
