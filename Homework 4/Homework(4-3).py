@@ -7,6 +7,8 @@ def f2(b):
         return "True"
     else:
         return "False"
+
+
 b = func()
 print(f2(b))
 assert f2([1, 2, 3, 3]) == "False"
