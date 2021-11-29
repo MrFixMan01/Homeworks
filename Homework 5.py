@@ -18,3 +18,5 @@ n = int(input("Элемент, который необходимо обнару�
 print(binary_search(d, n))
 assert binary_search([1, 9, 2, 8, 3, 7, 4, 6, 5], 1) == 0
 assert binary_search([1, 9, 2, 8, 3, 7, 4, 6, 5], 0) == None
+assert binary_search([], 1) == None
+assert binary_search([1, 9, 2, 8, 3, 7, 1, 4, 6, 5], 1) == 0
