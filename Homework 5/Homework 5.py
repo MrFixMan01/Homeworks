@@ -8,10 +8,10 @@ def binary_search(d, n):
             upper = center
         else:
             lower = center
-    if upper >= 0 and d[upper] == n:
-        return upper
-    else:
+    if upper  <= lower:
         return None
+    elif d[upper] == n:
+        return upper
 
 
 n = int(input("Элемент, который необходимо обнаружить: "))
