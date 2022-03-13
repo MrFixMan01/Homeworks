@@ -1,4 +1,4 @@
-from matrixtest import Matrix
+from matrix import Matrix
 
 
 class Matrix2x2(Matrix):
