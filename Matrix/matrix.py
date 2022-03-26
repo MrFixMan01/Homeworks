@@ -2,7 +2,9 @@ from abc import ABC, abstractmethod
 
 
 class Matrix(ABC):
-    def __init__(self, matrix=[[0]]):
+    def __init__(self, matrix=None):
+        if matrix is None:
+            matrix = [[0]]
         self.strok = 1
         self.stolb = 1
         self.matrix = matrix
